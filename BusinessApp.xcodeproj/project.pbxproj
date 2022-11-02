@@ -17,6 +17,9 @@
 		CE08C7562902F98A00B06C77 /* BusinessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08C7552902F98A00B06C77 /* BusinessAppTests.m */; };
 		CE08C7602902F98A00B06C77 /* BusinessAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08C75F2902F98A00B06C77 /* BusinessAppUITests.m */; };
 		CE08C7622902F98A00B06C77 /* BusinessAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE08C7612902F98A00B06C77 /* BusinessAppUITestsLaunchTests.m */; };
+		CE5EF70A2912AFB100BB6163 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EF7092912AFB100BB6163 /* AboutViewController.m */; };
+		CE5EF7112912C4EF00BB6163 /* PortfolioCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EF7102912C4EF00BB6163 /* PortfolioCollectionViewController.m */; };
+		CE5EF7142912C54500BB6163 /* PortfolioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EF7132912C54500BB6163 /* PortfolioCollectionViewCell.m */; };
 		CEA0B88B291085510089871B /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0B88A291085510089871B /* ServicesTableViewController.m */; };
 		CEA0B88E291085830089871B /* ServicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0B88D291085830089871B /* ServicesTableViewCell.m */; };
 		CEA0B891291085C20089871B /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0B890291085C20089871B /* ServicesViewController.m */; };
@@ -58,6 +61,12 @@
 		CE08C75B2902F98A00B06C77 /* BusinessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE08C75F2902F98A00B06C77 /* BusinessAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessAppUITests.m; sourceTree = "<group>"; };
 		CE08C7612902F98A00B06C77 /* BusinessAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CE5EF7082912AFB100BB6163 /* AboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		CE5EF7092912AFB100BB6163 /* AboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		CE5EF70F2912C4EF00BB6163 /* PortfolioCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewController.h; sourceTree = "<group>"; };
+		CE5EF7102912C4EF00BB6163 /* PortfolioCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewController.m; sourceTree = "<group>"; };
+		CE5EF7122912C54500BB6163 /* PortfolioCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewCell.h; sourceTree = "<group>"; };
+		CE5EF7132912C54500BB6163 /* PortfolioCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewCell.m; sourceTree = "<group>"; };
 		CEA0B889291085510089871B /* ServicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewController.h; sourceTree = "<group>"; };
 		CEA0B88A291085510089871B /* ServicesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewController.m; sourceTree = "<group>"; };
 		CEA0B88C291085830089871B /* ServicesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewCell.h; sourceTree = "<group>"; };
@@ -115,6 +124,8 @@
 		CE08C7382902F98500B06C77 /* BusinessApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE5EF70B2912C4AB00BB6163 /* Portfolio */,
+				CE5EF7072912AF8000BB6163 /* AboutUs */,
 				CE08C7392902F98500B06C77 /* AppDelegate.h */,
 				CE08C73A2902F98500B06C77 /* AppDelegate.m */,
 				CE08C73C2902F98500B06C77 /* SceneDelegate.h */,
@@ -146,6 +157,26 @@
 				CE08C7612902F98A00B06C77 /* BusinessAppUITestsLaunchTests.m */,
 			);
 			path = BusinessAppUITests;
+			sourceTree = "<group>";
+		};
+		CE5EF7072912AF8000BB6163 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EF7082912AFB100BB6163 /* AboutViewController.h */,
+				CE5EF7092912AFB100BB6163 /* AboutViewController.m */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		CE5EF70B2912C4AB00BB6163 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EF70F2912C4EF00BB6163 /* PortfolioCollectionViewController.h */,
+				CE5EF7102912C4EF00BB6163 /* PortfolioCollectionViewController.m */,
+				CE5EF7122912C54500BB6163 /* PortfolioCollectionViewCell.h */,
+				CE5EF7132912C54500BB6163 /* PortfolioCollectionViewCell.m */,
+			);
+			path = Portfolio;
 			sourceTree = "<group>";
 		};
 		CEA0B888291084F20089871B /* Services */ = {
@@ -295,10 +326,13 @@
 			files = (
 				CEA0B891291085C20089871B /* ServicesViewController.m in Sources */,
 				CEA0B88B291085510089871B /* ServicesTableViewController.m in Sources */,
+				CE5EF70A2912AFB100BB6163 /* AboutViewController.m in Sources */,
+				CE5EF7142912C54500BB6163 /* PortfolioCollectionViewCell.m in Sources */,
 				CE08C7412902F98500B06C77 /* ViewController.m in Sources */,
 				CE08C73B2902F98500B06C77 /* AppDelegate.m in Sources */,
 				CE08C74C2902F98A00B06C77 /* main.m in Sources */,
 				CE08C73E2902F98500B06C77 /* SceneDelegate.m in Sources */,
+				CE5EF7112912C4EF00BB6163 /* PortfolioCollectionViewController.m in Sources */,
 				CEA0B88E291085830089871B /* ServicesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
