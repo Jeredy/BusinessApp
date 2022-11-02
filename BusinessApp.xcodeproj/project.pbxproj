@@ -20,6 +20,9 @@
 		CE5EF70A2912AFB100BB6163 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EF7092912AFB100BB6163 /* AboutViewController.m */; };
 		CE5EF7112912C4EF00BB6163 /* PortfolioCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EF7102912C4EF00BB6163 /* PortfolioCollectionViewController.m */; };
 		CE5EF7142912C54500BB6163 /* PortfolioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EF7132912C54500BB6163 /* PortfolioCollectionViewCell.m */; };
+		CE5EF7182912F0DA00BB6163 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EF7172912F0DA00BB6163 /* ContactViewController.m */; };
+		CE5EF71B2912F20E00BB6163 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5EF71A2912F20E00BB6163 /* MapKit.framework */; };
+		CE5EF71E2912F60900BB6163 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5EF71D2912F60900BB6163 /* MapPin.m */; };
 		CEA0B88B291085510089871B /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0B88A291085510089871B /* ServicesTableViewController.m */; };
 		CEA0B88E291085830089871B /* ServicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0B88D291085830089871B /* ServicesTableViewCell.m */; };
 		CEA0B891291085C20089871B /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0B890291085C20089871B /* ServicesViewController.m */; };
@@ -67,6 +70,11 @@
 		CE5EF7102912C4EF00BB6163 /* PortfolioCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewController.m; sourceTree = "<group>"; };
 		CE5EF7122912C54500BB6163 /* PortfolioCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewCell.h; sourceTree = "<group>"; };
 		CE5EF7132912C54500BB6163 /* PortfolioCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewCell.m; sourceTree = "<group>"; };
+		CE5EF7162912F0DA00BB6163 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		CE5EF7172912F0DA00BB6163 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		CE5EF71A2912F20E00BB6163 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE5EF71C2912F60900BB6163 /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		CE5EF71D2912F60900BB6163 /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		CEA0B889291085510089871B /* ServicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewController.h; sourceTree = "<group>"; };
 		CEA0B88A291085510089871B /* ServicesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewController.m; sourceTree = "<group>"; };
 		CEA0B88C291085830089871B /* ServicesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewCell.h; sourceTree = "<group>"; };
@@ -81,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5EF71B2912F20E00BB6163 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +117,7 @@
 				CE08C7542902F98A00B06C77 /* BusinessAppTests */,
 				CE08C75E2902F98A00B06C77 /* BusinessAppUITests */,
 				CE08C7372902F98500B06C77 /* Products */,
+				CE5EF7192912F20E00BB6163 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +134,7 @@
 		CE08C7382902F98500B06C77 /* BusinessApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE5EF7152912F0B400BB6163 /* ContactUs */,
 				CE5EF70B2912C4AB00BB6163 /* Portfolio */,
 				CE5EF7072912AF8000BB6163 /* AboutUs */,
 				CE08C7392902F98500B06C77 /* AppDelegate.h */,
@@ -177,6 +188,25 @@
 				CE5EF7132912C54500BB6163 /* PortfolioCollectionViewCell.m */,
 			);
 			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		CE5EF7152912F0B400BB6163 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EF7162912F0DA00BB6163 /* ContactViewController.h */,
+				CE5EF7172912F0DA00BB6163 /* ContactViewController.m */,
+				CE5EF71C2912F60900BB6163 /* MapPin.h */,
+				CE5EF71D2912F60900BB6163 /* MapPin.m */,
+			);
+			path = ContactUs;
+			sourceTree = "<group>";
+		};
+		CE5EF7192912F20E00BB6163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EF71A2912F20E00BB6163 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CEA0B888291084F20089871B /* Services */ = {
@@ -324,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5EF71E2912F60900BB6163 /* MapPin.m in Sources */,
 				CEA0B891291085C20089871B /* ServicesViewController.m in Sources */,
 				CEA0B88B291085510089871B /* ServicesTableViewController.m in Sources */,
 				CE5EF70A2912AFB100BB6163 /* AboutViewController.m in Sources */,
@@ -333,6 +364,7 @@
 				CE08C74C2902F98A00B06C77 /* main.m in Sources */,
 				CE08C73E2902F98500B06C77 /* SceneDelegate.m in Sources */,
 				CE5EF7112912C4EF00BB6163 /* PortfolioCollectionViewController.m in Sources */,
+				CE5EF7182912F0DA00BB6163 /* ContactViewController.m in Sources */,
 				CEA0B88E291085830089871B /* ServicesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
