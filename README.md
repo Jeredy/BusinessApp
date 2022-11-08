@@ -32,7 +32,7 @@
     </tr>
     <tr>
       <td><img src="https://user-images.githubusercontent.com/38798492/200677720-a56d9e1d-2232-4d23-b126-d4673ab0bf66.png" width="300" height="600"></td>
-      <td colspan="2"><img src="https://user-images.githubusercontent.com/38798492/200677812-376b7b50-c34c-4fb4-98db-e801375fcb42.png" width="300" height="600"></td>
+      <td colspan="2"><img src="https://user-images.githubusercontent.com/38798492/200677812-376b7b50-c34c-4fb4-98db-e801375fcb42.png" width="600" height="600"></td>
     </tr>
 
  </table>
