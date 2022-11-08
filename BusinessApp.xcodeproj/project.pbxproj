@@ -27,6 +27,9 @@
 		CEA0B88E291085830089871B /* ServicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0B88D291085830089871B /* ServicesTableViewCell.m */; };
 		CEA0B891291085C20089871B /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0B890291085C20089871B /* ServicesViewController.m */; };
 		CEA0B8932910879C0089871B /* ServiceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEA0B8922910879C0089871B /* ServiceList.plist */; };
+		CED6B0B7291AEC4A005AFE14 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6B0B6291AEC4A005AFE14 /* EmailViewController.m */; };
+		CED6B0B9291AEEB7005AFE14 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED6B0B8291AEEB7005AFE14 /* Accounts.framework */; };
+		CED6B0BB291AEEC2005AFE14 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED6B0BA291AEEC2005AFE14 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,10 @@
 		CEA0B88F291085C20089871B /* ServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
 		CEA0B890291085C20089871B /* ServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
 		CEA0B8922910879C0089871B /* ServiceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ServiceList.plist; sourceTree = "<group>"; };
+		CED6B0B5291AEC4A005AFE14 /* EmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		CED6B0B6291AEC4A005AFE14 /* EmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		CED6B0B8291AEEB7005AFE14 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CED6B0BA291AEEC2005AFE14 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED6B0BB291AEEC2005AFE14 /* MessageUI.framework in Frameworks */,
+				CED6B0B9291AEEB7005AFE14 /* Accounts.framework in Frameworks */,
 				CE5EF71B2912F20E00BB6163 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +206,8 @@
 				CE5EF7172912F0DA00BB6163 /* ContactViewController.m */,
 				CE5EF71C2912F60900BB6163 /* MapPin.h */,
 				CE5EF71D2912F60900BB6163 /* MapPin.m */,
+				CED6B0B5291AEC4A005AFE14 /* EmailViewController.h */,
+				CED6B0B6291AEC4A005AFE14 /* EmailViewController.m */,
 			);
 			path = ContactUs;
 			sourceTree = "<group>";
@@ -204,6 +215,8 @@
 		CE5EF7192912F20E00BB6163 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CED6B0BA291AEEC2005AFE14 /* MessageUI.framework */,
+				CED6B0B8291AEEB7005AFE14 /* Accounts.framework */,
 				CE5EF71A2912F20E00BB6163 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -354,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED6B0B7291AEC4A005AFE14 /* EmailViewController.m in Sources */,
 				CE5EF71E2912F60900BB6163 /* MapPin.m in Sources */,
 				CEA0B891291085C20089871B /* ServicesViewController.m in Sources */,
 				CEA0B88B291085510089871B /* ServicesTableViewController.m in Sources */,

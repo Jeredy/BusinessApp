@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.label.text = @"Galeria da Rainha";
     
     self.button1.layer.cornerRadius = 5;
     self.button2.layer.cornerRadius = 5;
@@ -31,7 +32,7 @@
     span.longitudeDelta = 0.005;
     
     location.latitude = 51.501364;
-    location.latitude = -0.1418899999999894;
+    location.longitude = -0.1418899999999894;
     
     region.span = span;
     region.center = location;
@@ -41,6 +42,8 @@
     MapPin *ann = [[MapPin alloc] init];
     ann.coordinate = location;
     [self.mapView addAnnotation:ann];
+    
+    [[self navigationItem] setBackBarButtonItem:[[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil]];
 }
 
 /*
